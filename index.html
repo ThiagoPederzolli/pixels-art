@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="generateColor()">
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+  <div id="color-palette" >
+    <div id="black" class="color black selected"></div>
+    <div id="red" class="color "></div>
+    <div id="green" class="color "></div>
+    <div id="blue" class="color "></div>
+    
+  </div>
+  <p class="vqv">Defina o tamanho do quadro <input type="number" id="board-size" min="1"></p>
+  <button id="generate-board" class="vqv">VQV</button>
+  <input type="color" id="choose" class="choose-color">
+  <button id="choosed-color" class="choosed-button">Duplo clique para usar cor selecionada</button>
+  <button id="clear-board" class="clean">Limpar</button>
+  
+  <div class="board-center">
+    <div id="pixel-board" class="pixels white quadro-nativo">
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+      <div class="pixel white nativa"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+}
+
+.choose-color {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 20px auto;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 24px;
+}
+
+.choosed-button {
+  display: block;
+  margin: 0 auto;
+}
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+  color: white;
+}
+
+.quadro-nativo {
+  grid-template-columns: 40px 40px 40px 40px 40px;
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+}
+.board-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.pixels {
+  display: grid;  
+}
+
+.remove {
+  padding-top: 20px;
+}
+
+.pixel {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.vqv {
+  display: inline-block;
+}
+
+.clean {
+  display: block;
+  margin: 10px auto;
+}
